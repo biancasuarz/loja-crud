@@ -4,8 +4,9 @@ public class Videogame extends Produto {
 
     private int voltagem;
 
-    public Videogame (int codigo, String nome, String descricao, double preco, int quantidade) {
+    public Videogame (int codigo, String nome, String descricao, double preco, int quantidade, int voltagem) {
         super(codigo, nome, descricao, preco, quantidade);
+        this.voltagem = voltagem;
     }
 
     public int getVoltagem() {
